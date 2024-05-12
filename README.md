@@ -229,3 +229,33 @@ El comando `git fetch` se utiliza para recuperar todos los cambios del repositor
 ## git remote prune origin
 
 El comando `git remote prune origin` se utiliza para eliminar las referencias a ramas remotas que ya no existen en el repositorio remoto llamado "origin". Si has eliminado ramas en el repositorio remoto, esas referencias todavía pueden estar presentes en tu repositorio local. Este comando elimina esas referencias obsoletas y mantiene tu repositorio local limpio y actualizado.
+
+# Clase 4: Push y Pull en Git
+
+En esta clase, nos centraremos en los conceptos de "push" y "pull" en Git, así como en los comandos asociados para realizar estas operaciones.
+
+<img title="" src="https://miro.medium.com/v2/resize:fit:1400/0*79tNBC561Qo59dEX.png" alt="Domina GIT PUSH y GIT PULL con esta guía sencilla y práctica | by Lenin  Mazabanda | Medium" width="333" data-align="center">
+
+## Push y Pull en Git
+
+**Push**: El comando `git push` se utiliza para enviar cambios locales desde tu repositorio Git a un repositorio remoto, como GitHub. Esto actualiza el repositorio remoto con tus cambios locales.
+
+**Pull**: El comando `git pull` se utiliza para obtener cambios desde un repositorio remoto y fusionarlos automáticamente en tu rama local. Esto te permite mantener tu copia local del repositorio actualizada con las últimas modificaciones del repositorio remoto.
+
+## Comandos de Push y Pull en Git
+
+### git push -p
+
+El comando `git push -p` se utiliza para realizar un push de todas las ramas locales al repositorio remoto, eliminando ramas remotas que ya no existen localmente. Esto garantiza que el repositorio remoto refleje fielmente el estado actual del repositorio local.
+
+### git pull origin main
+
+El comando `git pull origin main` se utiliza para obtener los cambios de la rama `main` del repositorio remoto llamado "origin" y fusionarlos automáticamente en tu rama local. Esto te permite actualizar tu rama local con las últimas modificaciones del repositorio remoto.
+
+### git pull --all
+
+El comando `git pull --all` se utiliza para obtener los cambios de todas las ramas del repositorio remoto y fusionarlos automáticamente en tu repositorio local. Esto te permite actualizar todas las ramas locales con las últimas modificaciones del repositorio remoto.
+
+### git pull --set-upstream origin
+
+El comando `git pull --set-upstream origin` se utiliza para configurar la rama local para hacer seguimiento de la rama remota correspondiente en el repositorio remoto llamado "origin". Esto establece una relación de seguimiento entre la rama local y la rama remota, lo que facilita las operaciones de push y pull en el futuro.
