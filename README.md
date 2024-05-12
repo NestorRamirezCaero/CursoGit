@@ -259,3 +259,41 @@ El comando `git pull --all` se utiliza para obtener los cambios de todas las ram
 ### git pull --set-upstream origin
 
 El comando `git pull --set-upstream origin` se utiliza para configurar la rama local para hacer seguimiento de la rama remota correspondiente en el repositorio remoto llamado "origin". Esto establece una relación de seguimiento entre la rama local y la rama remota, lo que facilita las operaciones de push y pull en el futuro.
+
+# Clase 5: Git Flow
+
+En esta clase, exploraremos diferentes modelos de flujo de trabajo en Git, incluyendo Git Flow y GitHub Flow, así como algunos conceptos clave relacionados.
+
+## Git Flow
+
+<img title="" src="https://camo.githubusercontent.com/8815ffef3b3e91a236196f3371970d460f2af5e1421e9b44f9c4090a8f42261a/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a3830302f312a7534646c457134737149543669484c5f557376776e772e706e67" alt="Imagen GitFlow" width="436" data-align="center">
+
+Git Flow es un modelo de flujo de trabajo popular propuesto por Vincent Driessen. Se basa en el concepto de ramas principales (master y develop) y ramas de soporte (feature, release, hotfix). Este modelo proporciona un marco estructurado para el desarrollo de software, facilitando la colaboración y la gestión de versiones.
+
+## GitHub Flow
+
+GitHub Flow es un modelo de flujo de trabajo más ligero y centrado en el desarrollo continuo. Se basa en una única rama principal (generalmente `main` o `master`) y utiliza ramas de características para desarrollar nuevas funcionalidades. Este modelo se centra en la entrega continua de pequeños cambios y en la integración frecuente de código en la rama principal.
+
+![Understanding GitHub Flow and Git Flow | by Yan Min Thwin | Medium](https://miro.medium.com/v2/resize:fit:1400/1*bFl2IXVT2xIRy8uOm7v4JA.png)
+
+## Ship/Show/Ask
+
+"Ship/Show/Ask" es un enfoque común en el desarrollo de software que se refiere a las tres etapas principales de un proyecto:
+
+| Etapa | Descripción                                                                                                      |
+| ----- | ---------------------------------------------------------------------------------------------------------------- |
+| Ship  | Enviar el código a producción o al repositorio principal.                                                        |
+| Show  | Mostrar el trabajo realizado a los colaboradores o al equipo para obtener retroalimentación y revisión.          |
+| Ask   | Hacer preguntas, buscar ayuda o recibir retroalimentación sobre el trabajo realizado o los desafíos encontrados. |
+
+Este enfoque promueve la colaboración, la transparencia y el aprendizaje continuo en el desarrollo de software.
+
+![Estrategia de Git: Ship / Show / Ask](https://midu.dev/images/ship-show-ask.png)
+
+## Trunk Based Development
+
+Trunk Based Development es un enfoque de desarrollo que se centra en mantener una única rama principal (trunk) y realizar integraciones continuas de cambios en esa rama. Este modelo fomenta la entrega continua, la revisión de código frecuente y la resolución rápida de conflictos. Es especialmente adecuado para equipos ágiles que priorizan la velocidad y la colaboración.
+
+Estos modelos de flujo de trabajo proporcionan diferentes enfoques para la gestión de versiones y el desarrollo de software en Git. La elección del modelo adecuado depende de las necesidades y preferencias del equipo de desarrollo.
+
+![Trunk-based vs feature-based development dilemma — Part # 1 | by Ahmed  Faruk Monkwo | Medium](https://miro.medium.com/v2/resize:fit:1000/1*EoM3F4baNJ26kl8vDjYtvg.png)
