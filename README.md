@@ -40,8 +40,6 @@ El comando `git commit` se utiliza para confirmar los cambios realizados en el r
 
 Estos estados representan las diferentes etapas por las que pasan los archivos en un repositorio Git: desde ser modificados en el directorio de trabajo, luego preparados para el commit, hasta finalmente ser confirmados en el historial de versiones del repositorio.
 
-
-
 ## Git restore --staged
 
 El comando `git restore --staged` se utiliza para eliminar cambios de la zona de preparación (staging area) en Git. Esto significa que los cambios que han sido preparados para el commit con `git add` volverán al estado modificado, es decir, serán eliminados de la zona de preparación sin eliminar los cambios en sí.
@@ -57,3 +55,27 @@ El comando `git commit --amend` se utiliza para modificar el commit más recient
 ## Git log
 
 El comando `git log` se utiliza para ver el historial de commits en un repositorio Git. Muestra una lista de todos los commits realizados.
+
+
+
+
+
+# Clase 2: Ramas en Git
+
+En esta clase, exploraremos el concepto de ramas en Git y cómo pueden ser utilizadas para organizar y gestionar el desarrollo de software de manera efectiva.
+
+## ¿Qué es una rama en Git?
+
+Una rama en Git es una línea independiente de desarrollo que permite trabajar en nuevas características, correcciones de errores o experimentos sin afectar el código en otras ramas. Cada repositorio Git comienza con una rama principal predeterminada, comúnmente denominada `master` o `main`, y a partir de ahí se pueden crear y fusionar ramas adicionales según sea necesario.
+
+Las ramas en Git ofrecen varias ventajas, incluyendo:
+
+- **Aislamiento de cambios**: Permite trabajar en nuevas características o experimentos sin afectar el código principal del proyecto.
+- **Facilidad para la colaboración**: Varios desarrolladores pueden trabajar en diferentes características simultáneamente sin interferir entre sí.
+- **Experimentación segura**: Las ramas proporcionan un entorno seguro para probar nuevas ideas o soluciones sin arriesgar la estabilidad del proyecto principal.
+
+
+
+# ![Aprendiendo git: Ramas](https://res.cloudinary.com/snyk/images/f_auto,q_auto/w_1240,h_384,c_scale/v1/wordpress-sync/image1-11/image1-11-1240x384.png)
+
+Las ramas son una parte fundamental del flujo de trabajo en Git y son ampliamente utilizadas en el desarrollo de software para gestionar cambios de manera eficiente y colaborativa.
