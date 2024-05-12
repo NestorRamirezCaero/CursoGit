@@ -297,3 +297,37 @@ Trunk Based Development es un enfoque de desarrollo que se centra en mantener un
 Estos modelos de flujo de trabajo proporcionan diferentes enfoques para la gestión de versiones y el desarrollo de software en Git. La elección del modelo adecuado depende de las necesidades y preferencias del equipo de desarrollo.
 
 ![Trunk-based vs feature-based development dilemma — Part # 1 | by Ahmed  Faruk Monkwo | Medium](https://miro.medium.com/v2/resize:fit:1000/1*EoM3F4baNJ26kl8vDjYtvg.png)
+
+# Clase 6: Buenas Prácticas para Git
+
+En esta clase, veremos algunas buenas prácticas para trabajar con Git de manera eficiente y colaborativa.
+
+## Frecuencia de Commits
+
+La frecuencia de los commits es una consideración importante en Git. Si bien no hay una regla estricta sobre cuánto tiempo debe pasar entre cada commit, se recomienda realizar commits pequeños y frecuentes en lugar de grandes y poco frecuentes. Esto permite un seguimiento más granular de los cambios, facilita la resolución de conflictos y mejora la visibilidad del progreso del proyecto.
+
+## Prefijos de un Commit
+
+Los prefijos en los mensajes de commit pueden ayudar a organizar y categorizar los cambios realizados en el repositorio. Aquí hay algunos ejemplos de prefijos comunes y sus significados:
+
+| Prefijo   | Descripción                                                    |
+| --------- | -------------------------------------------------------------- |
+| feat:     | Nuevo feature o funcionalidad.                                 |
+| fix:      | Corrección de errores.                                         |
+| docs:     | Cambios en la documentación.                                   |
+| style:    | Cambios de formato, sin cambios en el código real.             |
+| refactor: | Refactorización del código existente.                          |
+| test:     | Adición o modificación de pruebas.                             |
+| chore:    | Tareas de mantenimiento, como actualizaciones de dependencias. |
+
+Usar prefijos en los mensajes de commit ayuda a mantener un registro claro de los cambios realizados y facilita la revisión del historial de versiones.
+
+## Nombres de Ramas
+
+La elección de nombres de ramas descriptivos y significativos es importante para mantener la claridad y la coherencia en el repositorio. Algunas prácticas recomendadas incluyen:
+
+- Usar nombres descriptivos que reflejen el propósito de la rama, como "feature/nueva-funcionalidad" o "fix/error-correccion".
+- Evitar nombres genéricos o poco claros, como "rama1" o "prueba".
+- Utilizar guiones bajos o guiones para separar palabras en los nombres de las ramas, según la preferencia del equipo.
+
+Elegir nombres de ramas significativos facilita la colaboración y la comprensión del flujo de trabajo del proyecto.
