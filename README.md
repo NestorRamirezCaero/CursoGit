@@ -368,6 +368,8 @@ En esta clase, exploraremos tres aspectos importantes de Git: Hooks, Alias y alg
 
 Los Hooks en Git son scripts personalizados que se ejecutan automáticamente en momentos específicos del ciclo de vida de Git, como antes o después de una operación de commit, push o merge. Puedes utilizar los Hooks para automatizar tareas como la ejecución de pruebas, la actualización de la documentación o la notificación de cambios.
 
+<img src="https://hamon.in/wp-content/uploads/2023/05/git-hooks.png" title="" alt="Hamon Technologies" data-align="center">
+
 ## Alias en Git
 
 Los Alias en Git son atajos de teclado personalizados que te permiten crear comandos abreviados para tareas comunes. Por ejemplo, puedes crear un Alias para `git status` y llamarlo simplemente `git st`. Esto puede ayudarte a ahorrar tiempo y escribir menos código al ejecutar comandos de Git repetitivos.
@@ -377,6 +379,8 @@ Para crear Alias en Git, puedes utilizar el comando `git config` con la opción 
 ```bash
 git config --global alias.st status
 ```
+
+![Git Alias - How To Use Git Alias | W3Docs Git Online Tutorial](https://www.w3docs.com/uploads/media/default/0001/03/8c9aaefb9e3e62abb213fde82aca9172e89a398b.png)
 
 ## Trucos en Git
 
