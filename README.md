@@ -109,3 +109,41 @@ El comando `git checkout` se utiliza para cambiar entre ramas en el repositorio.
 El comando `git merge` se utiliza para fusionar cambios de una rama a otra. Por lo general, se utiliza para integrar cambios de una rama secundaria en la rama principal del proyecto. Es útil para combinar el trabajo realizado en diferentes ramas y mantener la coherencia en el código base.
 
 ![Gif conflictos](https://camo.githubusercontent.com/9ce9843f5609e7b93781dedfeb13b7d84f26db23500e9c65531afbde879822e0/68747470733a2f2f7374617469632e6a61766174706f696e742e636f6d2f7475746f7269616c2f6769742f696d616765732f6769742d6d657267652d616e642d6d657267652d636f6e666c6963742e706e67)
+
+# Eliminación de Ramas en Git
+
+En esta sección, discutiremos la importancia de eliminar ramas obsoletas en Git y los comandos asociados para hacerlo de manera segura.
+
+## ¿Por qué eliminar ramas?
+
+Es importante eliminar ramas obsoletas en un repositorio Git por varias razones:
+
+- **Mantenimiento del repositorio**: Eliminar ramas obsoletas ayuda a mantener un repositorio limpio y organizado, lo que facilita la navegación y la comprensión del historial de cambios.
+- **Evitar confusión**: Al eliminar ramas que ya no son necesarias, se evita la confusión sobre qué ramas están activas y cuáles están obsoletas.
+- **Ahorro de recursos**: Al reducir el número de ramas en un repositorio, se ahorran recursos y se mejora el rendimiento de Git.
+
+## Comandos para eliminar ramas
+
+![Eliminar todas las ramas locales en Git | Delft Stack](https://www.delftstack.com/img/Git/feature-image---git-delete-all-local-branches.webp)
+
+### git branch -d [nombre_rama]
+
+El comando `git branch -d [nombre_rama]` se utiliza para eliminar una rama en Git de forma segura. Este comando solo eliminará la rama si todos los cambios de la rama a eliminar ya han sido fusionados en otra parte del proyecto. Es útil para eliminar ramas que ya han cumplido su propósito y ya no son necesarias.
+
+### git branch -D [nombre_rama]
+
+El comando `git branch -D [nombre_rama]` se utiliza para forzar la eliminación de una rama en Git, incluso si hay cambios en la rama que no se han fusionado. Esto puede ser útil si estás seguro de que no necesitas los cambios de la rama y deseas eliminarla de todos modos.
+
+## Otros comandos útiles
+
+### git log --one-line
+
+El comando `git log --one-line` se utiliza para mostrar el historial de commits en una sola línea por cada commit. Proporciona una vista compacta del historial de cambios, que puede ser útil para tener una visión general rápida del proyecto.
+
+### git log --graph
+
+El comando `git log --graph` se utiliza para mostrar el historial de commits en forma de gráfico ASCII. Muestra las relaciones entre ramas y commits, lo que facilita la visualización del flujo de trabajo del proyecto.
+
+Estos comandos son útiles para mantener un repositorio Git limpio y organizado, así como para visualizar y comprender el historial de cambios de manera efectiva.
+
+![how to add author info onto git log --oneline --graph - Stack Overflow](https://i.stack.imgur.com/SUERW.jpg)
