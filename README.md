@@ -79,3 +79,33 @@ Las ramas en Git ofrecen varias ventajas, incluyendo:
 # ![Aprendiendo git: Ramas](https://res.cloudinary.com/snyk/images/f_auto,q_auto/w_1240,h_384,c_scale/v1/wordpress-sync/image1-11/image1-11-1240x384.png)
 
 Las ramas son una parte fundamental del flujo de trabajo en Git y son ampliamente utilizadas en el desarrollo de software para gestionar cambios de manera eficiente y colaborativa.
+
+# Comandos para Ramas
+
+
+
+## Git branch
+
+El comando `git branch` se utiliza para listar todas las ramas en el repositorio actual. Muestra una lista de las ramas existentes y resalta la rama actual con un asterisco (`*`). Es útil para visualizar todas las ramas disponibles en el proyecto.
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*vOgcWxc9PW10b-E6VndtLQ.png" title="" alt="𝐆𝐢𝐭 𝐁𝐫𝐚𝐧𝐜𝐡 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 | by Meghasharmaa | Medium" width="499">
+
+## Git branch [nombre_rama]
+
+El comando `git branch [nombre_rama]` se utiliza para crear una nueva rama en el repositorio. Al proporcionar un nombre de rama, se crea una nueva línea de desarrollo independiente a partir del punto en el que te encuentras. 
+
+<img src="https://docs.github.com/assets/cb-26429/images/help/desktop/new-branch-button-mac.png" title="" alt="Administración de ramas en GitHub Desktop - Documentación de GitHub" width="371">
+
+## Git switch
+
+El comando `git switch` se utiliza para cambiar entre ramas en el repositorio. Puedes cambiar a una rama existente proporcionando su nombre como argumento. Es una forma rápida y conveniente de moverte entre diferentes líneas de desarrollo en el proyecto.
+
+## Git checkout
+
+El comando `git checkout` se utiliza para cambiar entre ramas en el repositorio. Puedes cambiar a una rama existente proporcionando su nombre como argumento. Además, puedes usar `git checkout -b [nombre_rama]` para crear una nueva rama y cambiar a ella al mismo tiempo. Es útil para moverte entre diferentes ramas y crear nuevas ramas en el proyecto.
+
+## Git merge
+
+El comando `git merge` se utiliza para fusionar cambios de una rama a otra. Por lo general, se utiliza para integrar cambios de una rama secundaria en la rama principal del proyecto. Es útil para combinar el trabajo realizado en diferentes ramas y mantener la coherencia en el código base.
+
+![Gif conflictos](https://camo.githubusercontent.com/9ce9843f5609e7b93781dedfeb13b7d84f26db23500e9c65531afbde879822e0/68747470733a2f2f7374617469632e6a61766174706f696e742e636f6d2f7475746f7269616c2f6769742f696d616765732f6769742d6d657267652d616e642d6d657267652d636f6e666c6963742e706e67)
