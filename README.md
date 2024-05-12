@@ -331,3 +331,33 @@ La elección de nombres de ramas descriptivos y significativos es importante par
 - Utilizar guiones bajos o guiones para separar palabras en los nombres de las ramas, según la preferencia del equipo.
 
 Elegir nombres de ramas significativos facilita la colaboración y la comprensión del flujo de trabajo del proyecto.
+
+
+
+# Clase 7: Deshacer Cambios en Git
+
+## ¿Cuándo debemos deshacer cambios?
+
+Deshacer cambios en Git es útil en varias situaciones, como cuando cometemos errores en nuestro código, queremos revertir a una versión anterior o necesitamos deshacer cambios no deseados. Algunos casos comunes incluyen:
+
+- Deshacer cambios antes de confirmarlos (`git restore`, `git checkout`).
+- Deshacer cambios después de confirmarlos (`git reset`, `git revert`).
+
+## Comandos destructivos y no destructivos
+
+### Comandos destructivos
+
+Los comandos destructivos alteran el historial de commits y pueden provocar la pérdida permanente de cambios. Algunos de estos comandos son:
+
+- `git reset --soft`: Deshace los cambios realizados en el área de preparación (staging area) y deja los cambios en el directorio de trabajo.
+- `git reset --hard`: Deshace los cambios en el área de preparación y en el directorio de trabajo, revirtiendo todos los cambios al estado del commit seleccionado.
+
+### Comandos no destructivos
+
+Los comandos no destructivos deshacen cambios sin alterar el historial de commits. Algunos de estos comandos son:
+
+- `git restore`: Restaura archivos o cambios específicos a una versión anterior.
+- `git revert`: Crea un nuevo commit que deshace los cambios introducidos por un commit anterior.
+- `git checkout`: Permite moverse entre ramas o revertir cambios locales.
+
+# 
