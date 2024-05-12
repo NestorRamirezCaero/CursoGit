@@ -360,4 +360,31 @@ Los comandos no destructivos deshacen cambios sin alterar el historial de commit
 - `git revert`: Crea un nuevo commit que deshace los cambios introducidos por un commit anterior.
 - `git checkout`: Permite moverse entre ramas o revertir cambios locales.
 
-# 
+# Clase 8: Hooks, Alias y Trucos en Git
+
+En esta clase, exploraremos tres aspectos importantes de Git: Hooks, Alias y algunos trucos útiles que puedes utilizar en tu flujo de trabajo diario.
+
+## Hooks en Git
+
+Los Hooks en Git son scripts personalizados que se ejecutan automáticamente en momentos específicos del ciclo de vida de Git, como antes o después de una operación de commit, push o merge. Puedes utilizar los Hooks para automatizar tareas como la ejecución de pruebas, la actualización de la documentación o la notificación de cambios.
+
+## Alias en Git
+
+Los Alias en Git son atajos de teclado personalizados que te permiten crear comandos abreviados para tareas comunes. Por ejemplo, puedes crear un Alias para `git status` y llamarlo simplemente `git st`. Esto puede ayudarte a ahorrar tiempo y escribir menos código al ejecutar comandos de Git repetitivos.
+
+Para crear Alias en Git, puedes utilizar el comando `git config` con la opción `--global` para aplicar el Alias a todos los repositorios. Por ejemplo:
+
+```bash
+git config --global alias.st status
+```
+
+## Trucos en Git
+
+Además de los comandos básicos de Git, existen algunos trucos útiles que puedes utilizar para mejorar tu flujo de trabajo:
+
+- `git stash`: Guarda temporalmente los cambios locales en un área de almacenamiento temporal.
+- `git stash show`: Muestra los cambios guardados en el stash.
+- `git stash pop`: Aplica los cambios guardados en el stash y los elimina del stash.
+- `git stash -u`: Guarda todos los cambios, incluyendo los no rastreados.
+- `git cherry-pick`: Permite aplicar un commit específico a la rama actual.
+- `git bisect`: Ayuda a encontrar el commit que introdujo un error utilizando búsqueda binaria.
