@@ -213,3 +213,19 @@ bash
 ```
 
 Este comando envía todas las ramas locales al repositorio remoto llamado "origin" en GitHub.
+
+# Comandos Git para Gestión de Ramas y Remotos
+
+En esta sección, exploraremos algunos comandos útiles de Git para gestionar ramas y remotos en un repositorio.
+
+## git branch -a
+
+El comando `git branch -a` se utiliza para listar todas las ramas tanto locales como remotas en el repositorio Git. Proporciona una visión completa de todas las ramas disponibles, incluyendo las ramas locales que has creado y las ramas remotas que existen en el repositorio remoto.
+
+## git fetch
+
+El comando `git fetch` se utiliza para recuperar todos los cambios del repositorio remoto sin fusionarlos en tu rama local. Esto actualiza tu repositorio local con las últimas confirmaciones en el repositorio remoto, pero no afecta tu rama de trabajo actual. Es útil para obtener las actualizaciones más recientes del repositorio remoto sin fusionarlas inmediatamente.
+
+## git remote prune origin
+
+El comando `git remote prune origin` se utiliza para eliminar las referencias a ramas remotas que ya no existen en el repositorio remoto llamado "origin". Si has eliminado ramas en el repositorio remoto, esas referencias todavía pueden estar presentes en tu repositorio local. Este comando elimina esas referencias obsoletas y mantiene tu repositorio local limpio y actualizado.
